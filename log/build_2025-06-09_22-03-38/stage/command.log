@@ -1,0 +1,4 @@
+Invoking command in '/home/ros2/ros2_ws/build/stage': /usr/bin/cmake --build /home/ros2/ros2_ws/build/stage -- -j4 -l4
+Invoked command in '/home/ros2/ros2_ws/build/stage' returned '0': /usr/bin/cmake --build /home/ros2/ros2_ws/build/stage -- -j4 -l4
+Invoking command in '/home/ros2/ros2_ws/build/stage': /usr/bin/cmake --install /home/ros2/ros2_ws/build/stage
+Invoked command in '/home/ros2/ros2_ws/build/stage' returned '0': /usr/bin/cmake --install /home/ros2/ros2_ws/build/stage

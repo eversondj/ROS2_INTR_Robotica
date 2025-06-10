@@ -1,0 +1,159 @@
+[0.362s] Invoking command in '/home/ros2/ros2_ws/build/stage': /usr/bin/cmake --build /home/ros2/ros2_ws/build/stage -- -j4 -l4
+[0.581s] [  1%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[0.582s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[0.585s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[0.589s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[3.532s] [  8%] [32m[1mLinking CXX shared library libstage.so[0m
+[3.846s] [ 57%] Built target stage
+[3.875s] [ 64%] [32m[1mLinking CXX shared module source.so[0m
+[3.875s] [ 64%] [32m[1mLinking CXX shared module sink.so[0m
+[3.876s] [ 64%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[3.876s] [ 64%] [32m[1mLinking CXX shared module fasr.so[0m
+[3.987s] [ 66%] Built target source
+[3.988s] [ 67%] Built target sink
+[4.001s] [ 69%] Built target fasr
+[4.021s] [ 71%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[4.021s] [ 72%] [32m[1mLinking CXX shared module wander.so[0m
+[4.029s] [ 74%] [32m[1mLinking CXX shared module rasterize.so[0m
+[4.138s] [ 76%] Built target wander
+[4.144s] [ 77%] Built target rasterize
+[4.146s] [ 79%] Built target pioneer_flocking
+[4.170s] [ 81%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[4.177s] [ 83%] [32m[1mLinking CXX shared module dynamic.so[0m
+[4.182s] [ 84%] [32m[1mLinking CXX shared module fasr2.so[0m
+[4.286s] [ 86%] Built target lasernoise
+[4.299s] [ 88%] Built target dynamic
+[4.315s] [ 89%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[4.321s] [ 93%] Built target fasr2
+[4.325s] [ 94%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[4.436s] [ 96%] Built target expand_swarm
+[4.440s] [ 98%] Built target expand_pioneer
+[5.005s] [100%] [32m[1mLinking CXX executable stage[0m
+[5.129s] [100%] Built target stagebinary
+[5.140s] Invoked command in '/home/ros2/ros2_ws/build/stage' returned '0': /usr/bin/cmake --build /home/ros2/ros2_ws/build/stage -- -j4 -l4
+[5.144s] Invoking command in '/home/ros2/ros2_ws/build/stage': /usr/bin/cmake --install /home/ros2/ros2_ws/build/stage
+[5.152s] -- Install configuration: "RELEASE"
+[5.152s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/pkgconfig/stage.pc
+[5.153s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/cmake/Stage/stage-config.cmake
+[5.153s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/cmake/Stage/stage-config-version.cmake
+[5.156s] -- Installing: /home/ros2/ros2_ws/install/stage/bin/stage
+[5.157s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/bin/stage" to ""
+[5.158s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/libstage.so.4.3.0
+[5.159s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/libstage.so
+[5.160s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/include/Stage-4.3/stage.hh
+[5.166s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/fasr.so
+[5.166s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/fasr.so" to ""
+[5.167s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/sink.so
+[5.167s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/sink.so" to ""
+[5.169s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/source.so
+[5.169s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/source.so" to ""
+[5.171s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/wander.so
+[5.171s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/wander.so" to ""
+[5.172s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so
+[5.172s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so" to ""
+[5.173s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so
+[5.173s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so" to ""
+[5.174s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so
+[5.174s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so" to ""
+[5.176s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so
+[5.176s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so" to ""
+[5.178s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so
+[5.178s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so" to ""
+[5.180s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/blue.png
+[5.180s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/death.png
+[5.180s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/green.png
+[5.180s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/logo.png
+[5.180s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/mains.png
+[5.180s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/mainspower.png
+[5.180s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/question_mark.png
+[5.180s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/red.png
+[5.181s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/stagelogo.png
+[5.181s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/stall-old.png
+[5.181s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/stall.png
+[5.181s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/rgb.txt
+[5.181s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/rgb.txt
+[5.182s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/amcl-sonar.cfg
+[5.182s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/autolab.cfg
+[5.182s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/camera.cfg
+[5.182s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/everything.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/lsp_test.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/mbicp.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/nd.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/roomba.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/simple.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/test.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/vfh.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wavefront-remote.cfg
+[5.183s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wavefront.cfg
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi.cfg
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/SFU.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/autolab.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/camera.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/circuit.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/everything.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/fasr.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/fasr2.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/fasr_plan.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/large.world
+[5.184s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/lsp_test.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/mbicp.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pioneer_flocking.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pioneer_follow.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pioneer_walle.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/roomba.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/sensor_noise_demo.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/sensor_noise_module_demo.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/simple.world
+[5.185s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.world
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi.world
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/beacons.inc
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/chatterbox.inc
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/hokuyo.inc
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/irobot.inc
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/map.inc
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/objects.inc
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pantilt.inc
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pioneer.inc
+[5.186s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/sick.inc
+[5.187s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/ubot.inc
+[5.187s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[5.187s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/walle.inc
+[5.187s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/cfggen.sh
+[5.187s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/test.sh
+[5.187s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/worldgen.sh
+[5.187s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so
+[5.187s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so" to ""
+[5.188s] -- Installing: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so
+[5.188s] -- Set runtime path of "/home/ros2/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so" to ""
+[5.188s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/889_05.png
+[5.188s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[5.188s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[5.188s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/autolab.png
+[5.188s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave.png
+[5.188s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_compact.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_filled.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/frieburg.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/ghost.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital_section.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/human_outline.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/mbicp.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/rink.png
+[5.189s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/sal2.png
+[5.190s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/simple_rooms.png
+[5.190s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/space_invader.png
+[5.190s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine.png
+[5.190s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine_small.png
+[5.190s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/table.png
+[5.190s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[5.190s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/commando.world
+[5.190s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi.world
+[5.192s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[5.192s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi.world
+[5.192s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_itu.world
+[5.192s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_logdistance.world
+[5.192s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_ray.world
+[5.192s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_simple.world
+[5.192s] -- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/map.inc
+[5.193s] Invoked command in '/home/ros2/ros2_ws/build/stage' returned '0': /usr/bin/cmake --install /home/ros2/ros2_ws/build/stage

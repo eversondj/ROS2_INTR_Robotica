@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000451] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000500] (stage) JobQueued: {'identifier': 'stage', 'dependencies': OrderedDict()}
+[0.000574] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict()}
+[0.000609] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.011825] (stage) JobStarted: {'identifier': 'stage'}
+[0.017081] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[0.101696] (-) TimerEvent: {}
+[0.203204] (-) TimerEvent: {}
+[0.304286] (-) TimerEvent: {}
+[0.380189] (stage) JobProgress: {'identifier': 'stage', 'progress': 'cmake'}
+[0.381363] (stage) JobProgress: {'identifier': 'stage', 'progress': 'build'}
+[0.382468] (stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/stage', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ros2_ws/build/stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1206'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1001,unix/ros2-VirtualBox:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c996a6d9_cb6a_47e9_821b_67d78d43ffb7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XSXQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/lib/x86_64-linux-gnu/cmake:')]), 'shell': False}
+[0.386879] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[0.388053] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[0.389283] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/stage_ros2', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1206'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1001,unix/ros2-VirtualBox:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c996a6d9_cb6a_47e9_821b_67d78d43ffb7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XSXQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/lib/x86_64-linux-gnu/cmake::/opt/ros/humble')]), 'shell': False}
+[0.405019] (-) TimerEvent: {}
+[0.442522] (stage_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stage_node\x1b[0m\n'}
+[0.442795] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stage\x1b[0m\n'}
+[0.474282] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[0.486053] (stage_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stage_ros2\x1b[0m\n'}
+[0.498005] (stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[0.506297] (-) TimerEvent: {}
+[0.509626] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sink\x1b[0m\n'}
+[0.515168] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target source\x1b[0m\n'}
+[0.520306] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stagebinary\x1b[0m\n'}
+[0.520462] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fasr\x1b[0m\n'}
+[0.522156] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[0.526145] (stage) StdoutLine: {'line': b'[ 61%] Built target source\n'}
+[0.537995] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wander\x1b[0m\n'}
+[0.539547] (stage) StdoutLine: {'line': b'[ 64%] Built target stagebinary\n'}
+[0.540999] (stage) StdoutLine: {'line': b'[ 67%] Built target sink\n'}
+[0.552367] (stage_ros2) CommandEnded: {'returncode': 0}
+[0.552859] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[0.554456] (stage) StdoutLine: {'line': b'[ 71%] Built target fasr\n'}
+[0.557314] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pioneer_flocking\x1b[0m\n'}
+[0.560172] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rasterize\x1b[0m\n'}
+[0.565730] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/stage_ros2'], 'cwd': '/home/ros2/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1206'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1001,unix/ros2-VirtualBox:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c996a6d9_cb6a_47e9_821b_67d78d43ffb7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XSXQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/lib/x86_64-linux-gnu/cmake::/opt/ros/humble')]), 'shell': False}
+[0.569884] (stage) StdoutLine: {'line': b'[ 74%] Built target wander\n'}
+[0.572690] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.572927] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[0.575299] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[0.575510] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//launch\n'}
+[0.575625] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lasernoise\x1b[0m\n'}
+[0.578324] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[0.578486] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[0.578596] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[0.578704] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[0.580508] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[0.580611] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world\n'}
+[0.580703] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[0.580802] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[0.580891] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[0.580978] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[0.581067] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[0.581165] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[0.581256] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[0.581347] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps\n'}
+[0.581439] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[0.581531] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[0.581621] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[0.581713] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[0.581848] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[0.581940] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[0.582027] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[0.582119] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[0.582210] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[0.582302] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/include\n'}
+[0.582393] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[0.582484] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[0.582575] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[0.582665] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config\n'}
+[0.582756] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy\n'}
+[0.584334] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[0.584463] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz\n'}
+[0.584556] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[0.584652] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[0.584739] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[0.584834] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[0.584921] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[0.585007] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[0.585093] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[0.585187] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/lib/libstage_node.so\n'}
+[0.585280] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[0.585373] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[0.585465] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[0.585555] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[0.585646] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[0.585737] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[0.585869] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[0.585958] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[0.586048] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[0.586139] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[0.586230] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[0.586322] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[0.586413] (stage) StdoutLine: {'line': b'[ 77%] Built target pioneer_flocking\n'}
+[0.586516] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[0.586610] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[0.586702] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[0.593368] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[0.593611] (stage_ros2) CommandEnded: {'returncode': 0}
+[0.593997] (stage) StdoutLine: {'line': b'[ 81%] Built target rasterize\n'}
+[0.594106] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dynamic\x1b[0m\n'}
+[0.595765] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fasr2\x1b[0m\n'}
+[0.606959] (-) TimerEvent: {}
+[0.607265] (stage) StdoutLine: {'line': b'[ 84%] Built target dynamic\n'}
+[0.617536] (stage) StdoutLine: {'line': b'[ 93%] Built target lasernoise\n'}
+[0.617714] (stage) StdoutLine: {'line': b'[ 93%] Built target fasr2\n'}
+[0.617843] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target expand_swarm\x1b[0m\n'}
+[0.621989] (stage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target expand_pioneer\x1b[0m\n'}
+[0.629698] (stage) StdoutLine: {'line': b'[ 96%] Built target expand_swarm\n'}
+[0.632966] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[0.635558] (stage) StdoutLine: {'line': b'[100%] Built target expand_pioneer\n'}
+[0.647511] (stage) CommandEnded: {'returncode': 0}
+[0.649492] (stage) JobProgress: {'identifier': 'stage', 'progress': 'install'}
+[0.649550] (stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/stage'], 'cwd': '/home/ros2/ros2_ws/build/stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1206'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1001,unix/ros2-VirtualBox:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c996a6d9_cb6a_47e9_821b_67d78d43ffb7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XSXQ72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/ros2_ws/build/stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/lib/x86_64-linux-gnu/cmake:')]), 'shell': False}
+[0.656517] (stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[0.656806] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/pkgconfig/stage.pc\n'}
+[0.656931] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/cmake/Stage/stage-config.cmake\n'}
+[0.657025] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[0.659315] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/bin/stage\n'}
+[0.659437] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/libstage.so.4.3.0\n'}
+[0.659546] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/libstage.so\n'}
+[0.659653] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/include/Stage-4.3/stage.hh\n'}
+[0.659764] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/fasr.so\n'}
+[0.659869] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/sink.so\n'}
+[0.659974] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/source.so\n'}
+[0.660122] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/wander.so\n'}
+[0.660252] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[0.660425] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so\n'}
+[0.660583] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so\n'}
+[0.660865] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so\n'}
+[0.661198] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so\n'}
+[0.661631] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/blue.png\n'}
+[0.661776] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/death.png\n'}
+[0.661887] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/green.png\n'}
+[0.662142] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/logo.png\n'}
+[0.662282] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/mains.png\n'}
+[0.662404] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/mainspower.png\n'}
+[0.662511] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/question_mark.png\n'}
+[0.662616] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/red.png\n'}
+[0.662720] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/stagelogo.png\n'}
+[0.663036] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/stall-old.png\n'}
+[0.663176] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/stall.png\n'}
+[0.663456] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/assets/rgb.txt\n'}
+[0.663579] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/rgb.txt\n'}
+[0.663685] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[0.663796] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/autolab.cfg\n'}
+[0.663901] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/camera.cfg\n'}
+[0.664005] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/everything.cfg\n'}
+[0.664108] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/lsp_test.cfg\n'}
+[0.664211] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/mbicp.cfg\n'}
+[0.664334] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/nd.cfg\n'}
+[0.664449] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/roomba.cfg\n'}
+[0.664568] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/simple.cfg\n'}
+[0.664680] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/test.cfg\n'}
+[0.664788] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[0.664893] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/vfh.cfg\n'}
+[0.664996] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[0.665099] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wavefront.cfg\n'}
+[0.665202] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi.cfg\n'}
+[0.665332] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/SFU.world\n'}
+[0.665436] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/autolab.world\n'}
+[0.665539] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/camera.world\n'}
+[0.665642] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/circuit.world\n'}
+[0.665745] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/everything.world\n'}
+[0.665853] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/fasr.world\n'}
+[0.665957] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/fasr2.world\n'}
+[0.666060] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/fasr_plan.world\n'}
+[0.666163] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/large.world\n'}
+[0.666291] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/lsp_test.world\n'}
+[0.666384] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/mbicp.world\n'}
+[0.666471] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pioneer_flocking.world\n'}
+[0.666567] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pioneer_follow.world\n'}
+[0.666743] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pioneer_walle.world\n'}
+[0.666838] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/roomba.world\n'}
+[0.666926] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[0.667019] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[0.667106] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/simple.world\n'}
+[0.667193] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[0.667544] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi.world\n'}
+[0.667651] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/beacons.inc\n'}
+[0.667743] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/chatterbox.inc\n'}
+[0.667840] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/hokuyo.inc\n'}
+[0.667929] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/irobot.inc\n'}
+[0.668016] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/map.inc\n'}
+[0.668103] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/objects.inc\n'}
+[0.668190] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pantilt.inc\n'}
+[0.668321] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/pioneer.inc\n'}
+[0.668424] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/sick.inc\n'}
+[0.668512] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/ubot.inc\n'}
+[0.668598] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[0.668685] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/walle.inc\n'}
+[0.668778] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/cfggen.sh\n'}
+[0.668866] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/test.sh\n'}
+[0.668952] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/worldgen.sh\n'}
+[0.669039] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so\n'}
+[0.669125] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[0.669211] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[0.669298] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[0.669384] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[0.669471] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[0.669558] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave.png\n'}
+[0.669652] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[0.669739] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[0.669832] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[0.669920] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[0.670006] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[0.670093] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[0.670184] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[0.670271] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[0.670357] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/rink.png\n'}
+[0.670445] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[0.670532] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[0.670619] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[0.670706] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[0.670800] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[0.670887] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/table.png\n'}
+[0.670974] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[0.671061] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/commando.world\n'}
+[0.671147] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[0.671234] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[0.671320] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi.world\n'}
+[0.671407] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[0.671493] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[0.671580] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[0.671666] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[0.671753] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/stage/share/stage/worlds/wifi/map.inc\n'}
+[0.674677] (stage) CommandEnded: {'returncode': 0}
+[0.700146] (stage) JobEnded: {'identifier': 'stage', 'rc': 0}
+[0.715925] (-) TimerEvent: {}
+[0.881254] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/ros2/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/ros2/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'ros2', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1206', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2-VirtualBox:@/tmp/.ICE-unix/1001,unix/ros2-VirtualBox:/tmp/.ICE-unix/1001', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c996a6d9_cb6a_47e9_821b_67d78d43ffb7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XSXQ72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros2/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/usr/local:/usr/lib/x86_64-linux-gnu/cmake:'}, 'shell': False}
+[0.882029] (-) TimerEvent: {}
+[0.986506] (-) TimerEvent: {}
+[1.087904] (-) TimerEvent: {}
+[1.188247] (-) TimerEvent: {}
+[1.211310] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.212100] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.212384] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.212619] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.212716] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.212910] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.214894] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.216366] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.216488] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.216633] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.216722] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.216963] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.218340] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.218566] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.221660] (my_py_pkg) StdoutLine: {'line': b"removing '/home/ros2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.221839] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ros2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.221933] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.250084] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/ros2_ws/build/my_py_pkg/install.log'\n"}
+[1.274538] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.281987] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.282741] (-) EventReactorShutdown: {}

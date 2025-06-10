@@ -2,7 +2,9 @@
 # Waypoint Follower ROS 2
 
 Este projeto implementa um nó ROS 2 em Python que controla o movimento de um robô por meio de uma sequência de waypoints. O nó utiliza a odometria recebida pelo tópico `/odom` e publica comandos de velocidade no tópico `/cmd_vel`.
+
 #Link para o Video no Youtube
+  https://youtube.com/shorts/S7wgTkk0RKU?feature=share
 
 ## 📦 Requisitos
 
